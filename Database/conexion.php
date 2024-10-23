@@ -4,7 +4,7 @@ class Conexion{
 
     public static function conectar(){
         try {
-           $conexion = new mysqli(ConstantesBD::$localhost, ConstantesBD::$usuario, ConstantesBD::$pass, ConstantesBD::$bbdd);
+           $conexion = new mysqli(ConstantesBD::$localhost, ConstantesBD::$usuario, ConstantesBD::$passwd, ConstantesBD::$bbdd);
    
           
             return $conexion;
